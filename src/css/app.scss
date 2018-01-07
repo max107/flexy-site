@@ -1,0 +1,56 @@
+@import '~font-fira-sans/firasans.css';
+@import '~material-design-icons/iconfont/material-icons.css';
+
+@import 'settings';
+
+@import '~flexy-framework/flexy/flexy';
+@import '~flexy-framework/flexy/theme/default';
+
+a {
+  color: darken(flexy-color(), 10%);
+}
+
+@include flexy-heading {
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul,
+ol {
+  margin-left: 1em;
+}
+
+@import 'block/install';
+@import 'block/helper';
+@import 'block/body';
+@import 'block/logo';
+@import 'block/example';
+@import 'block/header';
+@import 'block/pane';
+@import 'block/footer';
+@import 'block/batreon';
+@import 'block/welcome';
+@import 'block/why';
+@import 'block/menu';
+@import 'block/blog-post';
+@import 'block/portfolio-post';
+
+code {
+  font-family: $flexy-font-mono;
+  background: {
+    color: #fff;
+  }
+  border-radius: 6px;
+  padding: 0.2em;
+}
+
+hr {
+  @extend .b-divider;
+  @extend .b-divider_large;
+  margin: 3em 0;
+}
+
+@import 'block/prism-theme';
+@import 'block/prism-line-highlight';

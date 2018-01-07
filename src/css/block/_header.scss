@@ -1,0 +1,15 @@
+.b-header {
+  background: {
+    color: #fff;
+  }
+  border-radius: 0 0 6px 6px;
+  padding: 1em 2em;
+  box-shadow: 0 2px 4px rgba(126, 142, 177, 0.12);
+  margin-bottom: 2em;
+
+  &__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

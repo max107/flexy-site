@@ -1,0 +1,22 @@
+.b-welcome {
+  margin: 4em 0;
+
+  &__title {
+    font-weight: bold;
+    font-size: 2.4em;
+    margin-bottom: 1em;
+  }
+
+  &__text {
+    font-size: 1.3em;
+  }
+
+  &__title,
+  &__text {
+    color: flexy-color(dark);
+
+    @include flexy-breakpoint(large) {
+      color: #fff;
+    }
+  }
+}

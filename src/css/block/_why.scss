@@ -1,0 +1,46 @@
+.b-why {
+  &__container {
+    border: {
+      width: 1px 0;
+      style: solid;
+      color: rgba(#000, 0.05);
+    }
+    background: {
+      color: #f2f4f9;
+    }
+    padding: 4em 0 2em;
+  }
+
+  &__title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  &__item {
+    @extend .b-segment;
+    @extend .b-segment__content;
+
+    transition: all 0.25s ease;
+
+    &:hover {
+      transform: scale(1.1);
+      z-index: 5;
+      box-shadow: 0 0 40px rgba(#000, 0.15);
+    }
+  }
+
+  &__icon {
+    margin: 0 auto 1em;
+    width: 64px;
+    height: auto;
+    display: block;
+  }
+
+  &__text {
+    color: flexy-color(dark);
+    text-align: center;
+    font-size: 1.2em;
+  }
+}

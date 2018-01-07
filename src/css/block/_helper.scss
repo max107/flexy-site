@@ -1,0 +1,12 @@
+.b-helper {
+  $helper-color: rgba(flexy-color(), 0.1);
+  @include ellipsis;
+  background-color: $helper-color;
+  box-shadow: 0 0 0 1px $helper-color inset;
+  padding: 0.4em 0.5em;
+  margin: 0.25em 0;
+  font-size: 0.9em;
+  box-sizing: border-box;
+  text-align: center;
+  min-height: 32px;
+}

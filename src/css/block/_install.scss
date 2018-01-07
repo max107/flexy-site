@@ -1,0 +1,31 @@
+.b-install {
+  &__title {
+    color: flexy-color(dark);
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+
+  &__li {
+    &:not(:last-of-type) {
+      margin-bottom: 1em;
+    }
+  }
+
+  &__code {
+    display: block;
+    text-decoration: none;
+    background: {
+      color: flexy-color(dark);
+    }
+    color: #fff;
+    padding: em-calc(4px) em-calc(6px);
+    border-radius: 4px;
+    font-family: $flexy-font-mono;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  &__text {
+    color: flexy-color(gray);
+  }
+}

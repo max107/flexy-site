@@ -1,0 +1,34 @@
+body,
+.b-body {
+  @include antialias;
+  background: {
+    color: #f2f4f8;
+  }
+
+  &_index {
+    &::after {
+      z-index: -1;
+      height: 180vh;
+      position: absolute;
+      right: 0;
+      width: 100%;
+      background: {
+        repeat: no-repeat;
+        image: linear-gradient(45deg, #65dcfb 0, flexy-color() 60%);
+      }
+      min-height: 700px;
+      content: ' ';
+      transform: skewY(-22deg) translateY(15rem);
+      bottom: 80%;
+      transition: all 0.25s ease;
+
+      @include flexy-breakpoint(small) {
+        opacity: 0;
+      }
+
+      @include flexy-breakpoint(large) {
+        opacity: 1;
+      }
+    }
+  }
+}

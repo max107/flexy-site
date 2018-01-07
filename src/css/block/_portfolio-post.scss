@@ -1,0 +1,40 @@
+.b-portfolio-post {
+  display: block;
+  box-sizing: border-box;
+  padding: 1em 1.5em;
+  background: {
+    color: #fff;
+  }
+  text-decoration: none;
+  transition: all 0.1s ease;
+
+  &:hover {
+    box-shadow: 0 2px 5px rgba(69, 101, 173, 0.1);
+    transform: translateY(-1px) scale(1.08);
+  }
+
+  &__image {
+    margin: 0 auto;
+    display: block;
+  }
+
+  &__title {
+    display: block;
+    color: flexy-color(black);
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  &__date {
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+  }
+
+  &__post {
+    display: block;
+    margin-top: 0.5em;
+  }
+}

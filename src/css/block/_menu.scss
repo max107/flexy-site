@@ -1,0 +1,20 @@
+.b-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 2em;
+
+  &__item {
+    font-weight: bold;
+    color: flexy-color(dark);
+    text-decoration: none;
+
+    &:hover {
+      color: flexy-color();
+    }
+
+    &:not(:first-of-type) {
+      margin-left: 1em;
+    }
+  }
+}

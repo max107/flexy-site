@@ -1,0 +1,16 @@
+.b-batreon {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 1.5em;
+  background: {
+    color: #fff;
+  }
+  box-shadow: 0 2px 4px rgba(126, 142, 177, 0.12);
+  text-align: center;
+  border-radius: 6px;
+
+  &__description {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+  }
+}
