@@ -6,6 +6,14 @@ module.exports = {
     },
     plugins: [
         {
+            resolve: `gatsby-plugin-yandex-metrika`,
+            options: {
+                trackingId: '47230008',
+                webvisor: true,
+                trackHash: true
+            },
+        },
+        {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
                 trackingId: "UA-6744947-17",
