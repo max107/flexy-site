@@ -8,6 +8,7 @@
         "font-fira-sans": "^1.0.0",
         "gatsby": "^1.9.145",
         "gatsby-link": "^1.6.32",
+        "gatsby-plugin-google-analytics": "^1.0.15",
         "gatsby-plugin-react-helmet": "^1.0.8",
         "gatsby-plugin-sass": "^1.0.15",
         "gatsby-plugin-sharp": "^1.6.24",
