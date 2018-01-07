@@ -54,10 +54,14 @@ const Footer = () => (
 const TemplateWrapper = ({ children }) => (
     <div>
         <Helmet
-            title="Gatsby Default Starter"
+            title="Flexy SCSS library"
             meta={[
-                { name: 'description', content: 'Sample' },
-                { name: 'keywords', content: 'sample, something' },
+                { name: 'description', content: 'Flexible SCSS library' },
+                {
+                    name: 'keywords',
+                    content:
+                        'flexbox, scss, sass, framework, library, responsive',
+                },
             ]}
         />
 
