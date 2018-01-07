@@ -1,10 +1,11 @@
 import React from 'react'
 
-const NotFoundPage = () => (
-    <div>
-        <h1>NOT FOUND</h1>
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+export default () => (
+    <div className="b-wrapper">
+        <div className="b-row">
+            <div className="b-col b-col_small_12">
+                <h1>Not found</h1>
+            </div>
+        </div>
     </div>
 )
-
-export default NotFoundPage

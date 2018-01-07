@@ -31,7 +31,7 @@
     "license": "MIT",
     "main": "n/a",
     "scripts": {
-        "deploy": "gatsby build && netlify deploy",
+        "deploy": "netlify deploy -s flexy-framework.netlify.com -t $NETLIFY_TOKEN -e production -p ./public/",
         "build": "gatsby build",
         "serve": "gatsby serve",
         "develop": "gatsby develop",

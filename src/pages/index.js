@@ -169,7 +169,7 @@ const IndexPage = () => (
                         <h2 className="b-heading">Groups</h2>
                         <FormGroup />
                         <div className="b-space" />
-                        <Link to="/framework/core-form" className="b-button">
+                        <Link to="/framework/block-form" className="b-button">
                             Read more...
                         </Link>
                     </div>
@@ -178,7 +178,7 @@ const IndexPage = () => (
                         <InfoGroup />
                         <div className="b-space" />
                         <Link
-                            to="/framework/core-info-group"
+                            to="/framework/block-info-group"
                             className="b-button"
                         >
                             Read more...
@@ -188,10 +188,7 @@ const IndexPage = () => (
                         <h2 className="b-heading">Avatars</h2>
                         <Avatar />
                         <div className="b-space" />
-                        <Link
-                            to="/framework/core-info-group"
-                            className="b-button"
-                        >
+                        <Link to="/framework/block-avatar" className="b-button">
                             Read more...
                         </Link>
                     </div>
