@@ -1,5 +1,4 @@
 module.exports = {
-    pathPrefix: `/flexy-site`,
     siteMetadata: {
         siteUrl: `https://flexy.studio107.ru`,
         title: `Flexy SCSS library`,

@@ -40,20 +40,6 @@ $(document)
 
 ---
 
-### Интеграция с Symfony
-
-```twig
-{% if request.hasPreviousSession() %}
-    {% for type, messages in request.getSession().getFlashBag().all() %}
-        {% for message in messages %}
-            <div class="b-flash b-flash_{{ type }}">{{ message }}</div>
-        {% endfor %}
-    {% endfor %}
-{% endif %}
-```
-
----
-
 ### Настройки
 
 ```scss
