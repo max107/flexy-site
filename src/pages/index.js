@@ -11,10 +11,7 @@ import Link from 'gatsby-link'
 
 const IndexPage = () => (
     <div>
-        <Helmet
-            title="Gatsby Default Starter"
-            bodyAttributes={{ class: 'b-body_index' }}
-        />
+        <Helmet bodyAttributes={{ class: 'b-body_index' }}/>
 
         <div className="b-welcome">
             <div className="b-wrapper">
