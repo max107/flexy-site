@@ -30,7 +30,7 @@ const IndexPage = () => (
                     </div>
                     <div className="b-col b-col_small_12 b-col_medium_6">
                         <div className="b-hide b-hide_medium_up">
-                            <div className="b-space" />
+                            <div className="b-space"/>
                         </div>
                         <div className="b-segment">
                             <div className="b-segment__content">
@@ -56,9 +56,11 @@ const IndexPage = () => (
                                                 use the cdnjs CDN to link to the
                                                 Flexy stylesheet
                                             </div>
-                                            <div className="b-install__code">
-                                                coming soon
-                                            </div>
+                                            <a href="https://cdn.jsdelivr.net/npm/flexy-framework/release/flexy.css"
+                                               target="_blank"
+                                               className="b-install__code">
+                                                https://cdn.jsdelivr.net/npm/flexy-framework/release/flexy.css
+                                            </a>
                                         </li>
                                         <li className="b-install__li">
                                             <div className="b-install__text">
@@ -144,16 +146,16 @@ const IndexPage = () => (
                 <div className="b-col b-col_small_12">
                     <div className="b-example">
                         <h2 className="b-heading">Grid</h2>
-                        <Grid />
-                        <div className="b-space" />
+                        <Grid/>
+                        <div className="b-space"/>
                         <Link to="/framework/core-grid" className="b-button">
                             Read more...
                         </Link>
                     </div>
                     <div className="b-example">
                         <h2 className="b-heading">Block grid</h2>
-                        <BlockGrid />
-                        <div className="b-space" />
+                        <BlockGrid/>
+                        <div className="b-space"/>
                         <Link
                             to="/framework/core-block-grid"
                             className="b-button"
@@ -163,20 +165,20 @@ const IndexPage = () => (
                     </div>
                     <div className="b-example">
                         <h2 className="b-heading">Buttons</h2>
-                        <Button />
+                        <Button/>
                         <h2 className="b-heading">Form</h2>
-                        <Form />
+                        <Form/>
                         <h2 className="b-heading">Groups</h2>
-                        <FormGroup />
-                        <div className="b-space" />
+                        <FormGroup/>
+                        <div className="b-space"/>
                         <Link to="/framework/block-form" className="b-button">
                             Read more...
                         </Link>
                     </div>
                     <div className="b-example">
                         <h2 className="b-heading">Info</h2>
-                        <InfoGroup />
-                        <div className="b-space" />
+                        <InfoGroup/>
+                        <div className="b-space"/>
                         <Link
                             to="/framework/block-info-group"
                             className="b-button"
@@ -186,8 +188,8 @@ const IndexPage = () => (
                     </div>
                     <div className="b-example">
                         <h2 className="b-heading">Avatars</h2>
-                        <Avatar />
-                        <div className="b-space" />
+                        <Avatar/>
+                        <div className="b-space"/>
                         <Link to="/framework/block-avatar" className="b-button">
                             Read more...
                         </Link>
@@ -196,7 +198,7 @@ const IndexPage = () => (
             </div>
         </div>
 
-        <div className="b-space" />
+        <div className="b-space"/>
 
         <div className="b-batreon">
             <div className="b-batreon__description">
