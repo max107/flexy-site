@@ -4,39 +4,37 @@ date: "2017-08-21"
 url: /framework/block-form
 ---
 
-## Теги
-
-<a href="javascript:void(0)" class="b-button">Ссылка</a>
-<button class="b-button">Кнопка</button>
+<a href="javascript:void(0)" class="b-button">A tag</a>
+<button class="b-button">Button tag</button>
 
 ```html
-<a href="javascript:void(0)" class="b-button">Ссылка</a>
-<button class="b-button">Кнопка</button>
+<a href="javascript:void(0)" class="b-button">A tag</a>
+<button class="b-button">Button tag</button>
 ```
 
 ---
 
-## Размеры
+## Sizes
 
-<button class="b-button m-size_xsmall">Кнопка</button>
-<button class="b-button m-size_small">Кнопка</button>
-<button class="b-button m-size_medium">Кнопка</button>
-<button class="b-button m-size_large">Кнопка</button>
-<button class="b-button m-size_xlarge">Кнопка</button>
-<button class="b-button m-size_xxlarge">Кнопка</button>
+<button class="b-button m-size_xsmall">Button</button>
+<button class="b-button m-size_small">Button</button>
+<button class="b-button m-size_medium">Button</button>
+<button class="b-button m-size_large">Button</button>
+<button class="b-button m-size_xlarge">Button</button>
+<button class="b-button m-size_xxlarge">Button</button>
 
 ```html
-<button class="b-button m-size_xsmall">Кнопка</button>
-<button class="b-button m-size_small">Кнопка</button>
-<button class="b-button m-size_medium">Кнопка</button>
-<button class="b-button m-size_large">Кнопка</button>
-<button class="b-button m-size_xlarge">Кнопка</button>
-<button class="b-button m-size_xxlarge">Кнопка</button>
+<button class="b-button m-size_xsmall">Button</button>
+<button class="b-button m-size_small">Button</button>
+<button class="b-button m-size_medium">Button</button>
+<button class="b-button m-size_large">Button</button>
+<button class="b-button m-size_xlarge">Button</button>
+<button class="b-button m-size_xxlarge">Button</button>
 ```
 
 ---
 
-## Цвета
+## Colors
 
 <button class="b-button">Hello world</button>
 <button class="b-button b-button_success">Hello world</button>
@@ -50,7 +48,7 @@ url: /framework/block-form
 
 ---
 
-## Группы элементов
+## Element group
 
 <div class="b-input-group">
     <a href="javascript:void(0)" class="b-button">button</a>
@@ -84,7 +82,7 @@ url: /framework/block-form
 
 ---
 
-## Группы
+## Group
 
 <div class="b-group">
     <div class="b-input-group">

@@ -152,8 +152,9 @@ url: /framework/block-breadcrumb
 
 ---
 
-## Настройки
+## Settings
 
 ```scss
+// breadcrumbs separator
 $flexy-breadcrumb-symbol: '/' !default;
 ```

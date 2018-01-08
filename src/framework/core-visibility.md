@@ -6,16 +6,14 @@ url: /framework/core-visibility
 category: core
 ---
 
-Компонент `visibility` позволяет отображать и скрывать блоки в зависимости от media.
-Компонент не имеет настроек и зависит от настроек для `flexy-breakpoint` и имеет 2 модификатора
-состояния.
+Visibility allow to show/hide containers based on media query.
 
-* Модификатор `_only` - Только для указанного media
-* Модификатор `_up` - Для указанного media и выше
+* `_only` modifier for current media only
+* `_up` modified for current and up media
 
 ---
 
-## Отображение блока только для определенного breakpoint
+## Show for current breakpoint
 
 <div class="b-visible b-visible_small_only">
     <div class="b-helper">b-visible b-visible_small_only</div>
@@ -43,7 +41,7 @@ category: core
 
 ---
 
-## Отображение блока только для определенного breakpoint и выше
+## Show for breakpoint and up
 
 <div class="b-visible b-visible_small_up">
     <div class="b-helper">b-visible b-visible_small_up</div>
@@ -71,7 +69,7 @@ category: core
 
 ---
 
-## Скрытие блока для определенного breakpoint
+## Hide for current breakpoint only
 
 <div class="b-hide b-hide_small_only">
     <div class="b-helper">b-hide b-hide_small_only</div>
@@ -91,7 +89,7 @@ category: core
 
 ---
 
-## Скрытие блока для определенного breakpoint и ниже
+## Hide for current breakpoint and up
 
 <div class="b-hide b-hide_small_up">
     <div class="b-helper">b-hide b-hide_small_up</div>
@@ -104,7 +102,6 @@ category: core
 </div>
 
 ```html
-
 <div class="b-hide b-hide_small_up"></div>
 <div class="b-hide b-hide_medium_up"></div>
 <div class="b-hide b-hide_large_up"></div>

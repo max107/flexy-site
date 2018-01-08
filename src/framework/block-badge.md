@@ -17,15 +17,15 @@ url: /framework/block-badge
 
 ---
 
-## Настройки
+## Settings
 
 ```scss
-// border-radius по умолчанию берется из темы
+// default border-radius
 $flexy-block-badge-border-radius: $flexy-theme-border-radius !default;
 
-// Размер шрифта по умолчанию
+// default font-size for badge
 $flexy-block-badge-font-size: .9rem !default;
 
-// Цвета значков
+// default badge color theme
 $flexy-block-badge-colors: $flexy-theme-colors !default;
 ```

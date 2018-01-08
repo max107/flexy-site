@@ -9,10 +9,6 @@ url: /framework/block-flash
 <div class="b-flash b-flash_info">message</div>
 <div class="b-flash b-flash_error">message</div>
 
----
-
-### HTML разметка
-
 ```html
 <div class="b-flash b-flash_success">message</div>
 <div class="b-flash b-flash_warning">message</div>
@@ -22,7 +18,7 @@ url: /framework/block-flash
 
 ---
 
-### JS компонент
+### Javascript component
 
 ```js
 import $ from 'jquery';
@@ -40,10 +36,24 @@ $(document)
 
 ---
 
-### Настройки
+### Symfony integration
+
+```twig
+{% if request.hasPreviousSession() %}
+    {% for type, messages in request.getSession().getFlashBag().all() %}
+        {% for message in messages %}
+            <div class="b-flash b-flash_{{ type }}">{{ message }}</div>
+        {% endfor %}
+    {% endfor %}
+{% endif %}
+```
+
+---
+
+### Settings
 
 ```scss
-// типы и цвета
+// flash messages types
 $flexy-block-flash-types: (
     success: #27ae60,
     info: #2980b9,
@@ -51,13 +61,13 @@ $flexy-block-flash-types: (
     error: #c0392b,
 );
 
-// border-radius по умолчанию
+// default border-radius
 $flexy-block-flash-border-radius: $flexy-theme-border-radius !default;
 
-// размер шрифта по умолчанию
+// default font-size
 $flexy-block-flash-font-size: .9em !default;
 
-// дополнительные стили
+// additional styles
 $flexy-block-flash-styles: (
     margin-bottom: .5em,
     user-select: none,

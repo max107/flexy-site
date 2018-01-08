@@ -6,7 +6,8 @@ url: /framework/core-block-grid
 category: core
 ---
 
-Block grid представляет из себя [аналог одноименного компонента из foundation](http://foundation.zurb.com/sites/docs/v/5.5.3/components/block_grid.html)
+Block grid is a [clone component from foundation](http://foundation.zurb.com/sites/docs/v/5.5.3/components/block_grid.html)
+with flexbox support
 
 <br/>
 
@@ -118,7 +119,7 @@ Block grid представляет из себя [аналог одноимен
 
 ---
 
-## В зависимости от устройства
+## Device support
 
 small: 1, medium: 3, large: 4, ipad-1-2-portrait: 2, ipad-1-2-landscape: 3
 
@@ -161,15 +162,15 @@ small: 1, medium: 3, large: 4, ipad-1-2-portrait: 2, ipad-1-2-landscape: 3
 
 ---
 
-## Настройки
+## Settings
 
 ```scss
-// Максимальное количество блоков в block grid
+// maximum blocks
 $flexy-block-grid-count: 25 !default;
 
-// Отступы между блоками. По умолчанию равно отступам между колонками в Grid
+// sace between blocks
 $flexy-block-grid-padding: $flexy-grid-gutter !default;
 
-// Использовать flexbox для генерации block-grid? Если нет, то используется полный аналог из foundation
+// use flexbox. if flexbox is false used foundation-like block-grid.
 $flexy-block-grid-flexbox: true !default;
 ```

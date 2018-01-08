@@ -128,7 +128,7 @@ category: core
 
 ---
 
-## Вложенная сетка
+## Nested
 
 <div class="b-row">
     <div class="b-col b-col_small_12">
@@ -188,7 +188,7 @@ category: core
 
 ---
 
-## Адаптивность
+## Responsive
 
 <div class="b-row">
     <div class="b-col b-col_small_12 b-col_medium_6 b-col_large_3 b-col_xlarge_4">
@@ -224,27 +224,25 @@ category: core
 
 ---
 
-## Настройки
+## Settings
 
-Сетка использует названия из настроек [breakpoint](/blog/core-breakpoint) в качестве модификаторов.
+Grid used on [flexy-breakpoint](/blog/core-breakpoint)
 
 ```scss
-// Максимальное количество колонок
+// maximum columns
 $flexy-grid-columns: 12 !default;
 
-// Отступы между колонками
+// columns offset
 $flexy-grid-gutter: 0.5em !default;
 
-// Максимальная ширина контейнера
+// maximum container width
 $flexy-grid-wrapper-max-width: 100% !default;
 
-// Минимальная ширина контейнера
+// minimum container width
 $flexy-grid-wrapper-min-width: auto !default;
 ```
 
-По умолчанию контейнер не ограничен по ширине.
-
-Для того, чтобы создать фиксированный по ширине контейнер, нужно указать в настройках максимальную ширину контейнера:
+Wrapper is not limited by default. For create limited wrapper need setup max width.
 
 ```scss
 $flexy-grid-wrapper-max-width: 1280px;
@@ -258,7 +256,7 @@ $flexy-grid-wrapper-max-width: 1280px;
 </div>
 ```
 
-По умолчанию контейнер позиционируется по центру. Контейнер можно прижать к краям с помощью модификаторов `_left` и `_right`.
+By default, the container is centered, but you can positioned as you like
 
 ```html
 <div class="b-wrapper b-wrapper_left"></div>
@@ -266,13 +264,9 @@ $flexy-grid-wrapper-max-width: 1280px;
 <div class="b-wrapper b-wrapper_center"></div>
 ```
 
-Для отключения media query и фиксации контейнера по ширине укажите в настройках максимальную ширину и
-минимальную ширину (хотя кому оно нужно? на дворе 2018 год =)
+For disable responsive behavior set maximum and minimum wrapper size.
 
 ```scss
 $flexy-grid-wrapper-max-width: 978px;
 $flexy-grid-wrapper-min-width: $flexy-grid-wrapper-max-width;
 ```
-
-После изменения настроек контейнер не будет изменяться, следовательно и сетка внутри
-не будет перестраиваться.

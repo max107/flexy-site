@@ -4,4 +4,4 @@ date: "2017-08-21"
 url: /framework/block-kbd
 ---
 
-Нажмите <span class="b-kbd">⌘ + D</span> и добавьте страницу в закладки!
+Press <span class="b-kbd">⌘ + D</span> to add to the bookmarks.
